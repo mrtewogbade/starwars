@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Star Wars</title>
+  </head>
+  <body style="background-image: url(./Images/starwars\ bg.jpeg);
+  ">
+    <!-- Write your implementation here -->
+
+    <div class="full-img" id="fullImgBox">
+      <img src="./Images/Beru Whitesun Lars.jpeg" alt="" id="fullImg">
+      <span onclick="closeFullImg()">X</span>
+      <div id="character-data-display">
+        <!-- Character data will be displayed here -->
+      </div>
+    </div>
+      <div class="img-gallery">
+        
+        <img src="./Images/Beru Whitesun Lars.jpeg" onclick="openFullImg(this.src)" data-character="Beru Whitesun Lars">
+        <img src="./Images/Biggs Darklighter.jpeg"onclick="openFullImg(this.src)" data-character="Biggs Darklighter">
+        <img src="./Images/c-3po.jpeg" alt="" onclick="openFullImg(this.src)" data-character="C-3PO">
+        <img src="./Images/Ewan McGregor says Obi-Wan Kenobi series still a go, but 'pushed back' over scripts.jpeg" alt="" onclick="openFullImg(this.src)" data-character="Obi-Wan Kenobi">
+        <img src="./Images/Leia Organa.jpeg" alt="" onclick="openFullImg(this.src)" data-character="Leia Organa">
+        <img src="./Images/Luke Skywalker, 23 years old.jpeg" alt="" onclick="openFullImg(this.src)" data-character="Luke Skywalker">
+        <img src="./Images/Owen Lars (Episodes II, III - Joel Edgerton).jpeg" alt="" onclick="openFullImg(this.src)" data-character="Owen Lars">
+        <img src="./Images/Prints.jpeg" alt="" onclick="openFullImg(this.src)" data-character="Darth Vader">
+        <img src="./Images/R2-D2, Michael Peter.jpeg" alt="" onclick="openFullImg(this.src)" data-character="R2-D2">
+        <img src="./Images/R5-D4 Studio Shot.jpeg" alt="" onclick="openFullImg(this.src)" data-character="R5-D4">
+        
+      </div>
+
+    <script src="./script/index.js"></script>
+  </body>
+</html>
